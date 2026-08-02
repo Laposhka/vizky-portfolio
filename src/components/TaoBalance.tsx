@@ -54,12 +54,9 @@ export default function TaoBalance() {
 
   return (
     <div className="relative overflow-hidden rounded-2xl border border-line bg-surface/70 p-6">
-      <div className="relative mt-6">
+      <div className="relative">
         {data ? (
           <>
-            <p className="text-xl leading-none font-semibold tracking-[-0.03em] tabular-nums">
-              Rating: {data.balanceTao.toFixed(2)}
-            </p>
             <p className="text-xl leading-none font-semibold tracking-[-0.03em] tabular-nums">
               Hourly rate: {(data.valueUsd).toFixed()}
             </p>
